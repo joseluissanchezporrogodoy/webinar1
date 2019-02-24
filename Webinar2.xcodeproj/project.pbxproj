@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		11F78E562222A5CF0011A91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78E552222A5CF0011A91C /* AppDelegate.swift */; };
-		11F78E582222A5CF0011A91C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78E572222A5CF0011A91C /* ViewController.swift */; };
-		11F78E5B2222A5CF0011A91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E592222A5CF0011A91C /* Main.storyboard */; };
 		11F78E5D2222A5D00011A91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E5C2222A5D00011A91C /* Assets.xcassets */; };
 		11F78E602222A5D00011A91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E5E2222A5D00011A91C /* LaunchScreen.storyboard */; };
+		11F78E692222A6B80011A91C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78E672222A6B80011A91C /* FirstViewController.swift */; };
+		11F78E6A2222A6B80011A91C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E682222A6B80011A91C /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11F78E522222A5CF0011A91C /* Webinar2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Webinar2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F78E552222A5CF0011A91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11F78E572222A5CF0011A91C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11F78E5A2222A5CF0011A91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11F78E5C2222A5D00011A91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F78E5F2222A5D00011A91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11F78E612222A5D00011A91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F78E672222A6B80011A91C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		11F78E682222A6B80011A91C /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 		11F78E542222A5CF0011A91C /* Webinar2 */ = {
 			isa = PBXGroup;
 			children = (
+				11F78E672222A6B80011A91C /* FirstViewController.swift */,
+				11F78E682222A6B80011A91C /* FirstViewController.xib */,
 				11F78E552222A5CF0011A91C /* AppDelegate.swift */,
-				11F78E572222A5CF0011A91C /* ViewController.swift */,
-				11F78E592222A5CF0011A91C /* Main.storyboard */,
 				11F78E5C2222A5D00011A91C /* Assets.xcassets */,
 				11F78E5E2222A5D00011A91C /* LaunchScreen.storyboard */,
 				11F78E612222A5D00011A91C /* Info.plist */,
@@ -123,8 +123,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F78E602222A5D00011A91C /* LaunchScreen.storyboard in Resources */,
+				11F78E6A2222A6B80011A91C /* FirstViewController.xib in Resources */,
 				11F78E5D2222A5D00011A91C /* Assets.xcassets in Resources */,
-				11F78E5B2222A5CF0011A91C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +135,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F78E582222A5CF0011A91C /* ViewController.swift in Sources */,
 				11F78E562222A5CF0011A91C /* AppDelegate.swift in Sources */,
+				11F78E692222A6B80011A91C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11F78E592222A5CF0011A91C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11F78E5A2222A5CF0011A91C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11F78E5E2222A5D00011A91C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.uax.Webinar2;
+				PRODUCT_BUNDLE_IDENTIFIER = es.Webinar2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.uax.Webinar2;
+				PRODUCT_BUNDLE_IDENTIFIER = es.Webinar2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
