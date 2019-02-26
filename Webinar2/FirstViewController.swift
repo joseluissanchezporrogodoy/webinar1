@@ -20,6 +20,16 @@ class FirstViewController: UIViewController {
     }
 
 
-
-
+    @IBAction func buttonTap(_ sender: Any) {
+        // Presentamos uialert si está vacía la caja de texto
+        if( (textBox.text?.isEmpty)!) {
+            let alert = UIAlertController(title: "Alerta", message: "Introduce una palabra", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: { (UIAlertAction) in
+                self.dismiss(animated: true, completion: nil)
+            }))
+            self.present(alert,animated: true,completion: nil)
+        }
+    
+    }
+    
 }
