@@ -32,10 +32,8 @@ class FirstViewController: UIViewController {
             
             let vc = StatsViewController()
             vc.title = "Estadísticas"
-            self.navigationController?.pushViewController(vc, animated: true)
-            
-            
-            
+            vc.word = textBox.text!
+            self.navigationController?.pushViewController(vc, animated: true) 
         }
     
     }
