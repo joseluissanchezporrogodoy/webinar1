@@ -12,6 +12,8 @@
 		11F78E602222A5D00011A91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E5E2222A5D00011A91C /* LaunchScreen.storyboard */; };
 		11F78E692222A6B80011A91C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78E672222A6B80011A91C /* FirstViewController.swift */; };
 		11F78E6A2222A6B80011A91C /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E682222A6B80011A91C /* FirstViewController.xib */; };
+		11F78E6D2225DA180011A91C /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F78E6B2225DA180011A91C /* StatsViewController.swift */; };
+		11F78E6E2225DA180011A91C /* StatsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F78E6C2225DA180011A91C /* StatsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		11F78E612222A5D00011A91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11F78E672222A6B80011A91C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		11F78E682222A6B80011A91C /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		11F78E6B2225DA180011A91C /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		11F78E6C2225DA180011A91C /* StatsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				11F78E672222A6B80011A91C /* FirstViewController.swift */,
 				11F78E682222A6B80011A91C /* FirstViewController.xib */,
+				11F78E6B2225DA180011A91C /* StatsViewController.swift */,
+				11F78E6C2225DA180011A91C /* StatsViewController.xib */,
 				11F78E552222A5CF0011A91C /* AppDelegate.swift */,
 				11F78E5C2222A5D00011A91C /* Assets.xcassets */,
 				11F78E5E2222A5D00011A91C /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				11F78E602222A5D00011A91C /* LaunchScreen.storyboard in Resources */,
 				11F78E6A2222A6B80011A91C /* FirstViewController.xib in Resources */,
+				11F78E6E2225DA180011A91C /* StatsViewController.xib in Resources */,
 				11F78E5D2222A5D00011A91C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F78E562222A5CF0011A91C /* AppDelegate.swift in Sources */,
+				11F78E6D2225DA180011A91C /* StatsViewController.swift in Sources */,
 				11F78E692222A6B80011A91C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

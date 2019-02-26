@@ -28,6 +28,14 @@ class FirstViewController: UIViewController {
                 self.dismiss(animated: true, completion: nil)
             }))
             self.present(alert,animated: true,completion: nil)
+        } else {
+            
+            let vc = StatsViewController()
+            vc.title = "Estadísticas"
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+            
+            
         }
     
     }
